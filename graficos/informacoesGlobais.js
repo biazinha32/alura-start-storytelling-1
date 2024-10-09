@@ -11,8 +11,7 @@ async function vizualizarInformacoesGlobais() {
 
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = 
-Estima-se que cerca de 60% da população mundial assista a filmes regularmente. Essa porcentagem varia com fatores como idade, acesso à tecnologia e cultura. O crescimento das plataformas de streaming tem impulsionado ainda mais esse hábito globalmente.`
+    paragrafo.innerHTML = Estima-se que cerca de 60% da população mundial assista a filmes regularmente. Essa porcentagem varia com fatores como idade, acesso à tecnologia e cultura. O crescimento das plataformas de streaming tem impulsionado ainda mais esse hábito globalmente.`
 
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
